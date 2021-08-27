@@ -1,0 +1,5 @@
+文件目录：/home/admin1/LJ/A_lj/CPC/
+1.classifier.py
+(1)错误提示：runtimeerror:function addmmbackward returned an invalid gradient at index 2 -got[1024,15] but excepted shape compatible with[576,15]
+  解决：修改全连接层的参数576 -> 1024
+  
